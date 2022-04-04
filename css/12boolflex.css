@@ -12,6 +12,15 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+.row-end{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.offset{
+    width: 100%;
+    margin: auto;
+}
 .col-1{
     flex-basis: calc(100% / 12 * 1)
 }
@@ -48,4 +57,6 @@
 .col-12{
     flex-basis: calc(100% / 12 * 12)
 }
-
+.col-6b{
+    flex-basis: calc(100% / 12 * 6) 
+}

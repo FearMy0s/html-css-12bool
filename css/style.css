@@ -4,6 +4,23 @@
     min-height: 50px;
     color: white;
     text-align: center;
-    margin-top: 10px;
     padding-top: 15px;
+}
+
+.col-6b{
+    background-color: blue;
+    border: 1px solid white;
+    min-height: 100px;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.inner-col{
+    background-color: greenyellow;
+    color: white;
+    border: blue 1px solid;
+}
+
+.gutter{
+    margin-top: 30px;
 }
